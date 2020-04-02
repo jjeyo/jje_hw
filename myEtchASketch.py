@@ -15,8 +15,8 @@ need_dot = False
 
 
 # 함수:
-def put_dot(p1_x, p1_y, width):
-    canvas.create_oval(x - width / 2, y - width / 2, x + width / 2, y + width / 2, fill=p1_colour, width = 0)
+def put_dot(x, y, width):
+    canvas.create_oval(x - width / 2, y - width / 2, x + width / 2, y + width / 2, fill=p1_colour, width=0)
 
 
 def p1_move_n(event):
